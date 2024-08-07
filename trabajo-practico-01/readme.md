@@ -90,6 +90,7 @@ Instalar Notepad++ para Windows o TextMate para Mac OS, colocarle un alias y con
     git commit -m "Agregar archivo readme"
     ```
    <img src="./images/image9.jpeg" alt="Crear Repositorio Remoto" width="500"/>
+     
    <img src="./images/image8.jpeg" alt="Agregar Readme" width="500"/>
 
 3. Crear repo remoto en GitHub:  
@@ -139,6 +140,7 @@ Instalar Notepad++ para Windows o TextMate para Mac OS, colocarle un alias y con
     git commit -m "Cambio en nueva rama"
     ```
    <img src="./images/image15.jpeg" alt="Editar Readme en Rama Nueva" width="500"/>
+     
    <img src="./images/image16.jpeg" alt="Diferencias Entre Ramas" width="500"/>
 
 4. Revisar la diferencia entre ramas:  
@@ -177,7 +179,66 @@ Instalar Notepad++ para Windows o TextMate para Mac OS, colocarle un alias y con
     ```
 
 ## 8. Resolución de Conflictos
-Este paso se deja vacío por el momento.
+
+1. Instalar alguna herramienta de comparación. Idealmente una 3-Way:
+   - P4Merge: [Helix Visual Client (P4V)](https://www.perforce.com/downloads/helix-visual-client-p4v)
+     - Se puede omitir la registración. Instalar solo la opción Merge and DiffTool.
+   - BeyondCompare trial version: [Scooter Software](https://www.scootersoftware.com/download.php)
+
+2. Configurar TortoiseGit/SourceTree para soportar esta herramienta:
+   - [Configurar P4Merge con TortoiseGit](https://medium.com/@robinvanderknaap/using-p4merge-with-tortoisegit-87c1714eb5e2)
+   - [Configurar BeyondCompare con VCS](https://www.scootersoftware.com/support.php?zz=kb_vcs)
+
+3. Crear una nueva rama `conflictBranch`:
+    ```sh
+    git checkout -b conflictBranch
+    ```
+
+4. Realizar una modificación en la línea 1 del `Readme.md` desde `main` y commitear:
+    ```sh
+    git checkout main
+    echo "Cambio en la rama main" > readme.md
+    git add readme.md
+    git commit -m "Cambio en la rama main"
+    ```
+
+5. En la `conflictBranch` modificar la misma línea del `Readme.md` y commitear:
+    ```sh
+    git checkout conflictBranch
+    echo "Cambio en conflictBranch" > readme.md
+    git add readme.md
+    git commit -m "Cambio en conflictBranch"
+    ```
+
+6. Ver las diferencias con:
+    ```sh
+    git difftool main conflictBranch
+    ```
+
+7. Cambiarse a la rama `main` e intentar mergear con la rama `conflictBranch`:
+    ```sh
+    git checkout main
+    git merge conflictBranch
+    ```
+
+8. Resolver el conflicto con:
+    ```sh
+    git mergetool
+    ```
+
+9. Agregar `.orig` al `.gitignore`:
+    ```sh
+    echo "*.orig" >> .gitignore
+    git add .gitignore
+    git commit -m "Agregar .orig al .gitignore"
+    ```
+
+10. Hacer commit y push:
+    ```sh
+    git add readme.md
+    git commit -m "Resolver conflicto y hacer merge"
+    git push
+    ```
 
 ## 9. Familiarizarse con el concepto de Pull Request
 1. Explicar qué es un pull request:  
@@ -191,6 +252,7 @@ Este paso se deja vacío por el momento.
     git commit -m "Cambios para pull request"
     ```
    <img src="./images/image20.jpeg" alt="Branch Local y Cambios" width="500"/>
+     
    <img src="./images/image21.jpeg" alt="Subir Cambios y Crear Pull Request" width="500"/>
 
 3. Subir el cambio a dicho branch y crear un pull request:  
@@ -205,6 +267,7 @@ Este paso se deja vacío por el momento.
 
 5. Completar el proceso de revisión en GitHub y mergear el PR al branch master:  
    <img src="./images/image24.jpeg" alt="Revisión de Pull Request" width="500"/>
+     
    <img src="./images/image25.jpeg" alt="Revisión de Pull Request" width="500"/>  
 
 ## 10. Algunos ejercicios online
