@@ -1,4 +1,4 @@
-# Instrucciones para la instalación y configuración de Git
+# Trabajo Práctico 1 - Introducción a Git
 
 ## 1. Instalar Git
 Los pasos y referencias asumen el uso del sistema operativo Windows, en caso otros SO seguir recomendaciones específicas.
