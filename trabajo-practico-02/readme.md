@@ -257,9 +257,8 @@ Hasta este punto los contenedores ejecutados no tenían contacto con el exterior
 
   <img src="./images/image-31.png" width="500"/>
 
-- Verificar que el Archivo se ha creado en el directorio del guest y del host.
-
-
+- Verificar que el Archivo se ha creado en el directorio del guest y del host.  
+  <img src="./images/image-31b.png" width="500"/>
 
 #### 11- Utilizando una base de datos
 
