@@ -149,7 +149,7 @@
     - CMD: _Especifica el comando predeterminado que se ejecuta al iniciar el contenedor, que puede ser sobreescrito._
     - ENTRYPOINT: _Define un comando que siempre se ejecuta al iniciar el contenedor._
 - A partir del código https://github.com/ingsoft3ucc/SimpleWebAPI crearemos una images/imagen.
-- Clonar repo
+- Clonar repo  
   <img src="./images/image-14.png" width="500"/>
 
 - Crear images/imagen etiquetándola con un nombre. El punto final le indica a Docker que use el dir actual
