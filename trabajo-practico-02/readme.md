@@ -137,7 +137,16 @@
   <img src="./images/image-13.png" width="500"/>
 
 #### 7- Construir una images/imagen
-
+- Conceptos de DockerFile
+  - Leer https://docs.docker.com/engine/reference/builder/ 
+  - Describir las instrucciones
+    - FROM: _Define la imagen base a partir de la cual se construye la nueva imagen._
+    - RUN: _Ejecuta un comando en la imagen y guarda el resultado en una nueva capa._
+    - ADD: _Copia archivos/directorios al contenedor, con descompresión automática de archivos._
+    - COPY: _Copia archivos/directorios al contenedor sin descompresión._
+    - EXPOSE: _Documenta los puertos en los que la aplicación escucha._
+    - CMD: _Especifica el comando predeterminado que se ejecuta al iniciar el contenedor, que puede ser sobreescrito._
+    - ENTRYPOINT: _Define un comando que siempre se ejecuta al iniciar el contenedor._
 - A partir del código https://github.com/ingsoft3ucc/SimpleWebAPI crearemos una images/imagen.
 - Clonar repo
   <img src="./images/image-14.png" width="500"/>
@@ -202,7 +211,7 @@ En el caso de aplicaciones web o base de datos donde se interactúa con estas ap
 - Modificamos dockerfile para que entre en bash sin ejecutar automaticamente la app
 
   ```bash
-  #ENTRYPOINT ["dotnet", "SimpleWebAPI.dll"]
+  # ENTRYPOINT ["dotnet", "SimpleWebAPI.dll"]
   CMD ["/bin/bash"]
   ```
 
@@ -299,7 +308,7 @@ Hasta este punto los contenedores ejecutados no tenían contacto con el exterior
 
   <img src="./images/image-35.png" width="500"/>
 
-- Conectarse a la base utilizando alguna IDE (Dbeaver - https://dbeaver.io/, eclipse, IntelliJ, etc...). Interactuar con los objectos objectos creados.
+- Conectarse a la base utilizando alguna IDE (Dbeaver - https://dbeaver.io/, eclipse, IntelliJ, etc...). Interactuar con los objetos creados.
   <img src="./images/image-36.png" width="500"/>
   <img src="./images/image-37.png" width="500"/>
 
