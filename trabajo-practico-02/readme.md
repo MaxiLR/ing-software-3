@@ -137,8 +137,9 @@
   <img src="./images/image-13.png" width="500"/>
 
 #### 7- Construir una images/imagen
+
 - Conceptos de DockerFile
-  - Leer https://docs.docker.com/engine/reference/builder/ 
+  - Leer https://docs.docker.com/engine/reference/builder/
   - Describir las instrucciones
     - FROM: _Define la imagen base a partir de la cual se construye la nueva imagen._
     - RUN: _Ejecuta un comando en la imagen y guarda el resultado en una nueva capa._
