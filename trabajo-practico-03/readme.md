@@ -32,46 +32,46 @@
 #### 3- Pasos del TP
 
 - 3.1 Crear una cuenta en Azure DevOps  
-  <img src="./images/image.png" width="500"/>
+  <img src="./images/image.png" width="1250"/>
 - 3.2 Crear un proyecto Sample01  
-  <img src="./images/image-11.png" width="500"/>
+  <img src="./images/image-11.png" width="1250"/>
 - 3.3 Crear un repo GIT desde cero  
-  <img src="./images/image-1.png" width="500"/>
+  <img src="./images/image-1.png" width="1250"/>
 - 3.4 Crear un proyecto Sample02  
-  <img src="./images/image-2.png" width="500"/>
+  <img src="./images/image-2.png" width="1250"/>
 - 3.5 Importar un repo desde GitHub: https://github.com/ingsoft3ucc/SimpleWebAPI.git  
-  <img src="./images/image-3.png" width="500"/>  
-  <img src="./images/image-4.png" width="500"/>  
-  <img src="./images/image-5.png" width="500"/>  
-  <img src="./images/image-6.png" width="500"/>
+  <img src="./images/image-3.png" width="1250"/>  
+  <img src="./images/image-4.png" width="1250"/>  
+  <img src="./images/image-5.png" width="1250"/>  
+  <img src="./images/image-6.png" width="1250"/>
 - 3.6 Realizar un cambio en un archivo, y subirlo al repo de ADO.  
-  <img src="./images/image-8.png" width="500"/>  
-  <img src="./images/image-9.png" width="500"/>  
-  <img src="./images/image-10.png" width="500"/>
+  <img src="./images/image-8.png" width="1250"/>  
+  <img src="./images/image-9.png" width="1250"/>  
+  <img src="./images/image-10.png" width="1250"/>
 - 3.7 Crear un pipeline, solicitar acceso a jobs de paralelismo  
-  <img src="./images/image-7.png" width="500"/>  
-  <img src="./images/image-23.png" width="500"/>  
-  <img src="./images/image-29.png" width="500"/>  
-  <img src="./images/image-30.png" width="500"/>  
-  <img src="./images/image-31.png" width="500"/>  
-  <img src="./images/image-32.png" width="500"/>  
-  <img src="./images/image-33.png" width="500"/>  
-  <img src="./images/image-34.png" width="500"/>
+  <img src="./images/image-7.png" width="1250"/>  
+  <img src="./images/image-23.png" width="1250"/>  
+  <img src="./images/image-29.png" width="1250"/>  
+  <img src="./images/image-30.png" width="1250"/>  
+  <img src="./images/image-31.png" width="1250"/>  
+  <img src="./images/image-32.png" width="1250"/>  
+  <img src="./images/image-33.png" width="1250"/>  
+  <img src="./images/image-34.png" width="1250"/>
 - 3.8 Cambiar el tipo de proceso de Basic a Agile  
-  <img src="./images/image-18.png" width="500"/>  
-  <img src="./images/image-19.png" width="500"/>
+  <img src="./images/image-18.png" width="1250"/>  
+  <img src="./images/image-19.png" width="1250"/>
 - 3.8 Crear un sprint  
-  <img src="./images/image-26.png" width="500"/>  
-  <img src="./images/image-27.png" width="500"/>  
-  <img src="./images/image-28.png" width="500"/>
+  <img src="./images/image-26.png" width="1250"/>  
+  <img src="./images/image-27.png" width="1250"/>  
+  <img src="./images/image-28.png" width="1250"/>
 - 3.9 Crear User Stories  
-  <img src="./images/image-20.png" width="500"/>  
-  <img src="./images/image-21.png" width="500"/>  
-  <img src="./images/image-22.png" width="500"/>
+  <img src="./images/image-20.png" width="1250"/>  
+  <img src="./images/image-21.png" width="1250"/>  
+  <img src="./images/image-22.png" width="1250"/>
 - 3.10 Crear Tasks y Bugs  
-  <img src="./images/image-12.png" width="500"/>  
-  <img src="./images/image-13.png" width="500"/>  
-  <img src="./images/image-14.png" width="500"/>  
-  <img src="./images/image-15.png" width="500"/>  
-  <img src="./images/image-16.png" width="500"/>  
-  <img src="./images/image-17.png" width="500"/>
+  <img src="./images/image-12.png" width="1250"/>  
+  <img src="./images/image-13.png" width="1250"/>  
+  <img src="./images/image-14.png" width="1250"/>  
+  <img src="./images/image-15.png" width="1250"/>  
+  <img src="./images/image-16.png" width="1250"/>  
+  <img src="./images/image-17.png" width="1250"/>

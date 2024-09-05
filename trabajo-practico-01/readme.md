@@ -45,32 +45,32 @@ Instalar Notepad++ para Windows o TextMate para Mac OS, colocarle un alias y con
 ## 4. Creación de Repos 01 -> Crearlo en GitHub, clonarlo localmente y subir cambios
 1. Crear una cuenta en [GitHub](https://github.com).  
 2. Crear un nuevo repositorio en dicha página con el Readme.md por defecto:  
-   <img src="./images/image1.jpeg" alt="Crear Repositorio" width="500"/>
+   <img src="./images/image1.jpeg" alt="Crear Repositorio" width="1250"/>
 
 3. Clonar el repo remoto en un nuevo directorio local:  
     ```sh
     git clone https://github.com/MaxiLR/ing-software-3
     ```
-   <img src="./images/image2.jpeg" alt="Clonar Repositorio" width="500"/>
+   <img src="./images/image2.jpeg" alt="Clonar Repositorio" width="1250"/>
 
 4. Editar archivo Readme.md agregando algunas lineas de texto:  
-   <img src="./images/image3.jpeg" alt="Editar Readme" width="500"/>
+   <img src="./images/image3.jpeg" alt="Editar Readme" width="1250"/>
 
 5. Editar (o crear si no existe) el archivo `.gitignore` agregando los archivos `*.bak`:  
-   <img src="./images/image4.jpeg" alt="Editar .gitignore" width="500"/>
+   <img src="./images/image4.jpeg" alt="Editar .gitignore" width="1250"/>
 
 6. Crear un commit y proveer un mensaje descriptivo:  
     ```sh
     git add .
     git commit -m "Initial commit"
     ```
-   <img src="./images/image5.jpeg" alt="Commit" width="500"/>
+   <img src="./images/image5.jpeg" alt="Commit" width="1250"/>
 
 7. Intentar un push al repo remoto:  
     ```sh
     git push
     ```
-   <img src="./images/image6.jpeg" alt="Push" width="500"/>
+   <img src="./images/image6.jpeg" alt="Push" width="1250"/>
 
    En caso de ser necesario configurar las claves SSH requeridas y reintentar el push.
 
@@ -81,7 +81,7 @@ Instalar Notepad++ para Windows o TextMate para Mac OS, colocarle un alias y con
     cd repo-local
     git init
     ```
-   <img src="./images/image7.jpeg" alt="Inicializar Repositorio Local" width="500"/>
+   <img src="./images/image7.jpeg" alt="Inicializar Repositorio Local" width="1250"/>
 
 2. Agregar archivo Readme.md con algunas lineas de texto:  
     ```sh
@@ -89,20 +89,20 @@ Instalar Notepad++ para Windows o TextMate para Mac OS, colocarle un alias y con
     git add readme.md
     git commit -m "Agregar archivo readme"
     ```
-   <img src="./images/image9.jpeg" alt="Crear Repositorio Remoto" width="500"/>
+   <img src="./images/image9.jpeg" alt="Crear Repositorio Remoto" width="1250"/>
      
-   <img src="./images/image8.jpeg" alt="Agregar Readme" width="500"/>
+   <img src="./images/image8.jpeg" alt="Agregar Readme" width="1250"/>
 
 3. Crear repo remoto en GitHub:  
 
-    <img src="./images/image10.jpeg" alt="Asociar Repo Local con Remoto" width="500"/>
+    <img src="./images/image10.jpeg" alt="Asociar Repo Local con Remoto" width="1250"/>
 
 4. Asociar repo local con remoto:  
     ```sh
     git remote add origin https://github.com/MaxiLR/repo-local.git
     git push -u origin main
     ```
-   <img src="./images/image11.jpeg" alt="Asociar Repo Local con Remoto" width="500"/>
+   <img src="./images/image11.jpeg" alt="Asociar Repo Local con Remoto" width="1250"/>
 
 5. Crear archivo `.gitignore` y agregar los archivos `*.bak`:  
     ```sh
@@ -110,7 +110,7 @@ Instalar Notepad++ para Windows o TextMate para Mac OS, colocarle un alias y con
     git add .gitignore
     git commit -m "Agregar archivo .gitignore"
     ```
-    <img src="./images/image12.jpeg" alt="Commit y Push" width="500"/>
+    <img src="./images/image12.jpeg" alt="Commit y Push" width="1250"/>
 
 6. Crear un commit y proveer un mensaje descriptivo:  
     ```sh
@@ -118,20 +118,20 @@ Instalar Notepad++ para Windows o TextMate para Mac OS, colocarle un alias y con
     git commit -m "Agregar archivo readme y .gitignore"
     git push
     ```
-   <img src="./images/image13.jpeg" alt="Commit y Push" width="500"/>
+   <img src="./images/image13.jpeg" alt="Commit y Push" width="1250"/>
 
 ## 6. Ramas
 1. Crear una nueva rama:  
     ```sh
     git checkout -b dev
     ```
-   <img src="./images/image14.jpeg" alt="Crear Nueva Rama" width="500"/>
+   <img src="./images/image14.jpeg" alt="Crear Nueva Rama" width="1250"/>
 
 2. Cambiarse a esa rama:  
     ```sh
     git checkout dev
     ```
-   <img src="./images/image14.jpeg" alt="Cambiar de Rama" width="500"/>
+   <img src="./images/image14.jpeg" alt="Cambiar de Rama" width="1250"/>
 
 3. Hacer un cambio en el archivo Readme.md y hacer commit:  
     ```sh
@@ -139,15 +139,15 @@ Instalar Notepad++ para Windows o TextMate para Mac OS, colocarle un alias y con
     git add readme.md
     git commit -m "Cambio en nueva rama"
     ```
-   <img src="./images/image15.jpeg" alt="Editar Readme en Rama Nueva" width="500"/>
+   <img src="./images/image15.jpeg" alt="Editar Readme en Rama Nueva" width="1250"/>
      
-   <img src="./images/image16.jpeg" alt="Diferencias Entre Ramas" width="500"/>
+   <img src="./images/image16.jpeg" alt="Diferencias Entre Ramas" width="1250"/>
 
 4. Revisar la diferencia entre ramas:  
     ```sh
     git diff main dev
     ```
-   <img src="./images/image17.jpeg" alt="Diferencias Entre Ramas" width="500"/>
+   <img src="./images/image17.jpeg" alt="Diferencias Entre Ramas" width="1250"/>
 
 ## 7. Merges
 1. Hacer un merge FF:  
@@ -155,7 +155,7 @@ Instalar Notepad++ para Windows o TextMate para Mac OS, colocarle un alias y con
     git checkout main
     git merge dev
     ```
-   <img src="./images/image18.jpeg" alt="Merge FF" width="500"/>
+   <img src="./images/image18.jpeg" alt="Merge FF" width="1250"/>
 
 2. Borrar la rama creada:  
     ```sh
@@ -166,7 +166,7 @@ Instalar Notepad++ para Windows o TextMate para Mac OS, colocarle un alias y con
     ```sh
     git log
     ```
-   <img src="./images/image19.jpeg" alt="Borrar Rama" width="500"/>
+   <img src="./images/image19.jpeg" alt="Borrar Rama" width="1250"/>
 
 4. Repetir el ejercicio 6 para poder hacer un merge con No-FF:  
     ```sh
@@ -251,25 +251,25 @@ Instalar Notepad++ para Windows o TextMate para Mac OS, colocarle un alias y con
     git add readme.md
     git commit -m "Cambios para pull request"
     ```
-   <img src="./images/image20.jpeg" alt="Branch Local y Cambios" width="500"/>
+   <img src="./images/image20.jpeg" alt="Branch Local y Cambios" width="1250"/>
      
-   <img src="./images/image21.jpeg" alt="Subir Cambios y Crear Pull Request" width="500"/>
+   <img src="./images/image21.jpeg" alt="Subir Cambios y Crear Pull Request" width="1250"/>
 
 3. Subir el cambio a dicho branch y crear un pull request:  
     ```sh
     git push origin pull-request-branch
     ```
-    <img src="./images/image22.jpeg" alt="Subir Cambios y Crear Pull Request" width="500"/>
+    <img src="./images/image22.jpeg" alt="Subir Cambios y Crear Pull Request" width="1250"/>
    
 
 4. Crear un pull request en GitHub:  
-   <img src="./images/image23.jpeg" alt="Crear Pull Request" width="500"/>
+   <img src="./images/image23.jpeg" alt="Crear Pull Request" width="1250"/>
 
 5. Completar el proceso de revisión en GitHub y mergear el PR al branch master:  
-   <img src="./images/image24.jpeg" alt="Revisión de Pull Request" width="500"/>
+   <img src="./images/image24.jpeg" alt="Revisión de Pull Request" width="1250"/>
      
-   <img src="./images/image25.jpeg" alt="Revisión de Pull Request" width="500"/>  
+   <img src="./images/image25.jpeg" alt="Revisión de Pull Request" width="1250"/>  
 
 ## 10. Algunos ejercicios online
 Entrar a la página [Learn Git Branching](https://learngitbranching.js.org/) y completar los ejercicios de la secuencia de introducción:  
-   <img src="./images/image26.jpeg" alt="Learn Git Branching" width="500"/>
+   <img src="./images/image26.jpeg" alt="Learn Git Branching" width="1250"/>
