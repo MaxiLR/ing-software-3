@@ -33,14 +33,14 @@
 - 4.2 Agregar en pipeline YAML una tarea de Publish.  
   <img src="./images/image-1.png" width="500"/>  
   <img src="./images/image-2.png" width="500"/>
-- 4.3 Explicar por qué es necesario contar con una tarea de Publish en un pipeline que corre en un agente de Microsoft en la nube.
+- 4.3 Explicar por qué es necesario contar con una tarea de Publish en un pipeline que corre en un agente de Microsoft en la nube.  
   _La tarea de Publish en un pipeline que corre en un agente de Microsoft en la nube es esencial para guardar y compartir los artefactos generados (como ejecutables o paquetes) porque los agentes en la nube no mantienen datos entre ejecuciones. Sin esta tarea, los artefactos podrían perderse al terminar el pipeline._
 - 4.4 Descargar el resultado del pipeline y correr localmente el software compilado.  
   <img src="./images/image-3.png" width="500"/>  
   <img src="./images/image-4.png" width="500"/>  
   <img src="./images/image-36.png" width="500"/>
 - 4.5 Habilitar el editor clásico de pipelines. Explicar las diferencias claves entre este tipo de editor y el editor YAML.  
-  <img src="./images/image-5.png" width="500"/>
+  <img src="./images/image-5.png" width="500"/>  
   _El Classic Editor es mas para principiantes y el YAML esta orientado a usuarios mas tecnicos y experimentados._
 - 4.6 Crear un nuevo pipeline con el editor clásico. Descargar el resultado del pipeline y correr localmente el software compilado.  
   <img src="./images/image-6.png" width="500"/>  
@@ -55,8 +55,8 @@
   <img src="./images/image-19.png" width="500"/>  
   <img src="./images/image-20.png" width="500"/>  
   <img src="./images/image-21.png" width="500"/>
-- 4.8 Explicar la diferencia entre un agente MS y un agente Self-Hosted. Qué ventajas y desventajas hay entre ambos? Cuándo es conveniente y/o necesario usar un Self-Hosted Agent?
-  _- **Microsoft-Hosted Agents**: Son agentes de compilación y despliegue proporcionados por Azure. Son gestionados y mantenidos por Microsoft, lo que significa que siempre están actualizados con las últimas herramientas y versiones de software. Son ideales para la mayoría de los proyectos, ya que no requieren configuración adicional por parte del usuario._
+- 4.8 Explicar la diferencia entre un agente MS y un agente Self-Hosted. Qué ventajas y desventajas hay entre ambos? Cuándo es conveniente y/o necesario usar un Self-Hosted Agent?  
+  _- **Microsoft-Hosted Agents**: Son agentes de compilación y despliegue proporcionados por Azure. Son gestionados y mantenidos por Microsoft, lo que significa que siempre están actualizados con las últimas herramientas y versiones de software. Son ideales para la mayoría de los proyectos, ya que no requieren configuración adicional por parte del usuario._  
   _- **Self-Hosted Agents**: Son agentes que los usuarios configuran y gestionan en sus propios servidores. Ofrecen mayor control sobre el entorno de compilación y despliegue, lo que es útil para proyectos que requieren software específico, versiones no soportadas en los agentes de Microsoft, o para casos en que se necesita mayor capacidad de procesamiento o almacenamiento local. Sin embargo, requieren más mantenimiento y configuración por parte del equipo._
 
 - 4.8 Crear un Pool de Agentes y un Agente Self-Hosted  
