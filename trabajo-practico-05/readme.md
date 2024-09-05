@@ -77,11 +77,12 @@
   <img src="./images/image-57.png" width="500"/>
 - 4.14 Realizar un pipeline (no release) que incluya el deploy a QA y a PROD con una aprobación manual. El pipeline debe estar construido en YAML sin utilizar el editor clásico de pipelines ni el editor clásico de pipelines de release.  
   <img src="./images/image-59.png" width="500"/>  
+  <img src="./images/image-61.png" width="500"/>  
   <img src="./images/image-58.png" width="500"/>  
   <img src="./images/image-60.png" width="500"/>  
   <img src="./images/image-62.png" width="500"/>  
   <img src="./images/image-63.png" width="500"/>  
   <img src="./images/image-64.png" width="500"/>  
   <img src="./images/image-65.png" width="500"/>  
-  <img src="./images/image-61.png" width="500"/>  
-  MOSTRAR EJECUCION DE QA Y PROD CON LOS CAMBIOS DE 2 PRONOSTICOS
+  <img src="./images/image-66.png" width="500"/>  
+  <img src="./images/image-67.png" width="500"/>  
