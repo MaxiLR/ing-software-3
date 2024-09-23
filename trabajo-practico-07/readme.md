@@ -154,7 +154,10 @@ Captura de pantalla de la prueba fallida
 #### 4.4 Desafíos:
 
 - Integrar en el pipeline SonarCloud para nuestro proyecto Angular, mostrar el resultado obtenido en SonarCloud
+  ![alt text](image-35.png)
+  ![alt text](image-34.png)
 - Implementar en Cypress pruebas de integración que incluya los casos desarrollados como pruebas unitarias del front en el TP06.
+  ![alt text](image-36.png)
 - Incorporar al pipeline de Deploy la ejecución de las pruebas de integración y la visualización de sus resultados.
 - **Resultado esperado**:
 
