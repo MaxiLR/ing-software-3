@@ -6,51 +6,51 @@
 
 ##### 4.1.1 En el directorio raiz de nuestro proyecto Angular instalar el siguiente paquete:
 
-![alt text](image.png)
+<img src="./images/image.png" width="1250"/> 
 
 ##### 4.1.2 Editar nuestro archivo karma.conf.js para que incluya reporte de cobertura
 
-![alt text](image-1.png)
+<img src="./images/image-1.png" width="1250"/> 
 
 ##### 4.1.3 En el dir raiz del proyecto EmployeeCrudApi.Tests ejecutar:
 
-![alt text](image-2.png)
+<img src="./images/image-2.png" width="1250"/> 
 
 ##### 4.1.4 Agregar a nuestro pipeline ANTES del Build de Back la tarea de test con los argumentos especificados y la de publicación de resultados de cobertura:
 
-![alt text](image-3.png)
+<img src="./images/image-3.png" width="1250"/> 
 
 ##### 4.1.5 Agregar a nuestro pipeline ANTES del Build de front la tarea de test y la de publicación de los resultados.
 
-![alt text](image-4.png)
+<img src="./images/image-4.png" width="1250"/> 
 
 ##### 4.1.6 Ejecutar el pipeline y analizar el resultado de las pruebas unitarias y la cobertura de código.
 
-![alt text](image-5.png)
-![alt text](image-6.png)
-![alt text](image-7.png)
-![alt text](image-8.png)
-![alt text](image-9.png)
+<img src="./images/image-5.png" width="1250"/> 
+<img src="./images/image-6.png" width="1250"/> 
+<img src="./images/image-7.png" width="1250"/> 
+<img src="./images/image-8.png" width="1250"/> 
+<img src="./images/image-9.png" width="1250"/> 
 
 #### 4.2 Agregar Análisis Estático de Código con SonarCloud:
 
 ##### 4.2.1 Integraremos SonarCloud para analizar el código fuente. Configurar SonarCloud en nuestro pipeline siguiendo instructivo 5.1
 
 - Antes de nuestra tarea de Build del Back:
-  ![alt text](image-10.png)
+  <img src="./images/image-10.png" width="1250"/> 
 
 - Despues de nuestra tarea de Build del Back:
-  ![alt text](image-11.png)
+  <img src="./images/image-11.png" width="1250"/> 
 
-![alt text](image-12.png)
+<img src="./images/image-12.png" width="1250"/> 
 
 ##### 4.2.2 Vemos el resultado de nuestro pipeline, en extensions tenemos un link al análisis realizado por SonarCloud
 
-![alt text](image-13.png)
+<img src="./images/image-13.png" width="1250"/> 
 
 ##### 4.2.3 Ir al link y analizar toda la información obtenida. Detallar en la entrega del TP los puntos más relevantes del informe, qué significan y para qué sirven.
 
-![alt text](image-14.png)
+<img src="./images/image-14.png" width="1250"/> 
 
 1. Clean Code Attributes
 
@@ -93,87 +93,114 @@
 
 ##### 4.3.1 En el directorio raiz de nuestro proyecto Angular instalar el siguiente paquete:
 
-![alt text](image-15.png)
+<img src="./images/image-15.png" width="1250"/> 
 
 ##### 4.3.2 Abrir Cypress:
 
-![alt text](image-16.png)
+<img src="./images/image-16.png" width="1250"/> 
 
 ##### 4.3.3 Inicializar Cypress en nuestro proyecto como se indica en el instructivo 5.2
 
-![alt text](image-17.png)
+<img src="./images/image-17.png" width="1250"/> 
 
 ##### 4.3.4 Crear nuestra primera prueba navegando a nuestro front.
 
-![alt text](image-18.png)
+<img src="./images/image-18.png" width="1250"/> 
 
 ##### 4.3.5 Correr nuestra primera prueba
 
-![alt text](image-19.png)
-![alt text](image-20.png)
+<img src="./images/image-19.png" width="1250"/> 
+<img src="./images/image-20.png" width="1250"/> 
 
 ##### 4.3.6 Modificar nuestra prueba para que falle.
 
 - Editamos el archivo primer_test.cy.js y hacemos que espere otra cosa en el título
-  ![alt text](image-21.png)
+  <img src="./images/image-21.png" width="1250"/> 
 
 - Ejecutamos cypress en modo headless
-  ![alt text](image-22.png)
+  <img src="./images/image-22.png" width="1250"/> 
 
 Captura de pantalla de la prueba fallida
-![alt text](image-23.png)
+<img src="./images/image-23.png" width="1250"/> 
 
 ##### 4.3.6 Grabar nuestras pruebas para que Cypress genere código automático y genere reportes:
 
 - Editamos el archivo cypress.config.ts incluyendo la propiedad **experimentalStudio** en true y la configuración de reportería.
-  ![alt text](image-24.png)
+  <img src="./images/image-24.png" width="1250"/> 
 
 - Corremos nuevamente Cypress con npx cypress open, una vez que se ejecute nuestra prueba tendremos la opción de "Add Commands to Test". Esto permitirá interactuar con la aplicación y generar automáticamente comandos de prueba basados en las interacciones con la página:
-  ![alt text](image-25.png)
-  ![alt text](image-26.png)
+  <img src="./images/image-25.png" width="1250"/> 
+  <img src="./images/image-26.png" width="1250"/> 
 
 - Por ejemplo, si agregamos un nuevo empleado y luego verificamos que esté en la lista, Cypress nos generará un código como este:
-  ![alt text](image-27.png)
-  ![alt text](image-28.png)
+  <img src="./images/image-27.png" width="1250"/> 
+  <img src="./images/image-28.png" width="1250"/> 
 
 - Por supuesto que habrá que hacerle ajustes, como por ejemplo que se fije siempre en la última fila de la grilla y no en la posición 15 como lo grabó, es ahí cuando consultando la documentación de Cypress debemos ver cómo modificar el código, en nuestro caso de ejemplo sería así:
-  ![alt text](image-29.png)
+  <img src="./images/image-29.png" width="1250"/> 
 
 ##### 4.3.7 Hacemos prueba de editar un empleado
 
 - Creamos en cypress/e2e/ un archivo editEmployee_test.cy.js con el siguiente contenido, guardamos y aparecerá en Cypress:
-  ![alt text](image-30.png)
+  <img src="./images/image-30.png" width="1250"/> 
 
 - Hacemos "Add command to the test" y empezamos a interactuar con la página
-  ![alt text](image-31.png)
+  <img src="./images/image-31.png" width="1250"/> 
 
 - Hacemos algunos ajustes al código generado:
-  ![alt text](image-32.png)
-  ![alt text](image-33.png)
+  <img src="./images/image-32.png" width="1250"/> 
+  <img src="./images/image-33.png" width="1250"/> 
 
 #### 4.4 Desafíos:
 
 - Integrar en el pipeline SonarCloud para nuestro proyecto Angular, mostrar el resultado obtenido en SonarCloud
-  ![alt text](image-35.png)
-  ![alt text](image-34.png)
+  <img src="./images/image-35.png" width="1250"/> 
+  <img src="./images/image-34.png" width="1250"/> 
 - Implementar en Cypress pruebas de integración que incluya los casos desarrollados como pruebas unitarias del front en el TP06.
-  ![alt text](image-36.png)
+  <img src="./images/image-36.png" width="1250"/> 
 - Incorporar al pipeline de Deploy la ejecución de las pruebas de integración y la visualización de sus resultados.
+  <img src="./images/image-37.png" width="1250"/> 
+  <img src="./images/image-38.png" width="1250"/> 
 - **Resultado esperado**:
 
   - Un Pipeline en YAML que incluya a) Build de QA y Front con ejecución y resultado de pruebas de code coverage, pruebas unitarias y análisis de Sonar Cloud y b) Deploy a WebApp(s) de QA y Front que incluya ejecución y resultado de pruebas de integración
 
   - Dos Stages: Una para Build, Test Unitarios, Code Coverage y SonarCloud y otra para el Deploy a QA con Tests de Integración
+    <img src="./images/image-39.png" width="1250"/> 
 
   - En la pestaña Test, poder visualizar los Test Unitarios de Front y Back y los Test de Integracion:
+    <img src="./images/image-40.png" width="1250"/> 
 
   - En la pestaña Code Coverage, visualizar la cobertura de las pruebas unitarias de Back y de Front:
+    <img src="./images/image-41.png" width="1250"/> 
 
   - En la pestaña Extensions, ver el análisis de SonarCloud en verde
+    <img src="./images/image-42.png" width="1250"/> 
+    Nota: Estan los dos analisis en el mismo proyecto de SonarCloud
 
-  - Un documento de una carilla explicando qué información pudieron sacar del análisis de Sonar Cloud y de las pruebas de cobertura.
+#### Análisis de Código en SonarCloud
 
-### Subir a proyecto de Azure DevOps
+El análisis realizado en SonarCloud ha revelado diversos problemas relacionados con la mantenibilidad, consistencia y fiabilidad del código. Estos problemas se clasifican como “Code Smells”, los cuales no representan errores críticos pero sí indican áreas donde el código puede ser mejorado para evitar problemas futuros o facilitar su comprensión y mantenimiento.
+
+##### 1. Mantenibilidad
+
+- **Controladores/EmployeeController.cs**:
+  - Se detectó un problema en la declaración de la variable `_context` que debería ser declarada como `readonly` para evitar modificaciones no intencionadas. Esto mejora la intencionalidad del código, aclarando que el estado de esa variable no debería cambiar una vez inicializada. Este ajuste es sencillo de implementar, con un esfuerzo estimado de 2 minutos.
+  - Se recomienda también utilizar el atributo `GeneratedRegexAttribute` para la generación de expresiones regulares en tiempo de compilación, lo cual optimiza el rendimiento y facilita la legibilidad. La corrección de este problema es mínima y mejora la consistencia del código, manteniéndolo más alineado con las mejores prácticas de C#.
+
+##### 2. Fiabilidad
+
+- **Modelos/Employee.cs**:
+  - Se encontró una advertencia que señala que las propiedades de tipo valor, usadas en una acción del controlador, deberían ser nullable, requeridas o anotadas con el atributo `JsonRequiredAttribute`. Esto ayuda a evitar el problema conocido como under-posting, donde las propiedades pueden no ser enviadas o deserializadas correctamente en las solicitudes HTTP. Estas correcciones aseguran que el modelo de datos es robusto y previene posibles errores en la comunicación entre el cliente y el servidor.
+
+##### 3. Prioridad de Resolución
+
+- **Mayor Mantenimiento y Consistencia**: Las advertencias de SonarCloud sugieren que los problemas relacionados con la mantenibilidad son más simples de abordar, pero importantes para la claridad y la robustez del código a largo plazo.
+- **Mayor Fiabilidad en los Modelos**: Las advertencias sobre la necesidad de manejar correctamente las propiedades de los modelos representan riesgos más significativos para la lógica de negocio y la integridad de los datos, por lo que deben ser atendidos para prevenir posibles fallos en la API o durante la deserialización de datos.
+
+##### 4. Pruebas de Cobertura
+
+El análisis de cobertura indica un 59.44% de líneas cubiertas por pruebas. Los archivos clave como `EmployeeController.cs` y `ApplicationDbContext.cs` tienen alta cobertura (96.88% y 100%, respectivamente), lo que asegura la correcta funcionalidad del CRUD y la conexión a la base de datos. Sin embargo, archivos como `Program.cs` (0%) y `employee.component.ts` (22.73%) presentan baja o nula cobertura, representando un riesgo potencial en la inicialización de la aplicación y en el frontend. Se recomienda aumentar la cobertura en estas áreas críticas para mejorar la fiabilidad del sistema.
 
 ### Criterio de Calificación
 
