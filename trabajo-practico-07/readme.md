@@ -71,7 +71,6 @@
 4. Tipos de Problemas
 
    - Code Smells: Los “code smells” son indicativos de posibles problemas en el código que no necesariamente son errores, pero podrían llevar a ellos o dificultar el mantenimiento. Ejemplos incluyen métodos grandes, duplicación de código, y mal uso de las estructuras del lenguaje.
-   - En el informe, puedes hablar sobre cómo los “code smells” son señales tempranas de problemas que deben abordarse para mejorar la salud general del código.
 
 5. Ejemplos Específicos de Problemas
 
@@ -82,7 +81,6 @@
 6. Esfuerzo Estimado
 
    - SonarCloud proporciona un tiempo estimado para resolver cada problema. Esto ayuda a priorizar el trabajo y planificar las tareas necesarias para mejorar el código.
-   - En tu informe, podrías discutir cómo este tiempo estimado puede ser útil para la gestión del proyecto, permitiendo una asignación más efectiva de los recursos.
 
 7. Impacto en el Proyectoc
 
