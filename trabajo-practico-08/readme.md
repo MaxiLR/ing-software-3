@@ -33,6 +33,8 @@
 
 ##### 4.1.7 - Ejecutar el pipeline y en Azure Portal acceder a la opción Repositorios de nuestro recurso Azure Container Registry. Verificar que exista una imagen con el nombre especificado en la variable backImageName asignada en nuestro pipeline
 
+![alt text](image-6.png)
+
 ##### 4.1.8 - Agregar tareas para generar imagen Docker de Front (DESAFIO)
 
 - A la etapa creada en 4.1.6 Agregar tareas para generar imagen Docker de Front
