@@ -39,6 +39,9 @@
 
 - A la etapa creada en 4.1.6 Agregar tareas para generar imagen Docker de Front
 
+![alt text](image-8.png)
+![alt text](image-7.png)
+
 ##### 4.1.9 - Agregar a nuestro pipeline una nueva etapa que dependa de nuestra etapa de Construcción de Imagenes Docker y subida a ACR
 
 - Agregar variables a nuestro pipeline:
