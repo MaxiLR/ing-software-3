@@ -45,11 +45,19 @@
 ##### 4.1.9 - Agregar a nuestro pipeline una nueva etapa que dependa de nuestra etapa de Construcción de Imagenes Docker y subida a ACR
 
 - Agregar variables a nuestro pipeline:
+  ![alt text](image-9.png)
 
 - Agregar variable secreta cnn-string-qa desde la GUI de ADO que apunte a nuestra BD de SQL Server de QA como se indica en el instructivo 5.3
+  ![alt text](image-10.png)
+  Cambios necesarios para variabilizar los ConnectionString y demas referencias a variables de entorno: [5873ce91](https://dev.azure.com/maximolr/Angular%20-%20Unit%20and%20Integration%20Tests/_git/Angular%20-%20Unit%20and%20Integration%20Tests/commit/5873ce917c316514d261d7fa92a5e5b125546bab?refName=refs%2Fheads%2Fmain)
+
 - Agregar tareas para crear un recurso Azure Container Instances que levante un contenedor con nuestra imagen de back
+  ![alt text](image-11.png)
 
 ##### 4.1.10 - Ejecutar el pipeline y en Azure Portal acceder al recurso de Azure Container Instances creado. Copiar la url del contenedor y navegarlo desde browser. Verificar que traiga datos.
+![alt text](image-12.png)
+![alt text](image-13.png)
+
 
 ##### 4.1.11 - Agregar tareas para generar un recurso Azure Container Instances que levante un contenedor con nuestra imagen de front (DESAFIO)
 
