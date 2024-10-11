@@ -1,5 +1,9 @@
 ## Trabajo Práctico 8 - Implementación de Contenedores en Azure y Automatización con Azure CLI
 
+### Pipeline URL
+
+https://dev.azure.com/maximolr/Angular%20-%20Unit%20and%20Integration%20Tests/_build/results?buildId=226&view=results
+
 ### Desarrollo:
 
 #### 4.1 Modificar nuestro pipeline para construir imágenes Docker de back y front y subirlas a ACR
