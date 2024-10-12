@@ -1,5 +1,9 @@
 ## Trabajo Práctico 9 - Implementación de Contenedores en Azure Parte 2
 
+### Desafio Azure ContainerApps
+
+- Pipeline: https://dev.azure.com/maximolr/Angular%20-%20Unit%20and%20Integration%20Tests/_build/results?buildId=269&view=results
+
 ### Pipeline URL
 
 Hasta 4.2.4: https://dev.azure.com/maximolr/Angular%20-%20Unit%20and%20Integration%20Tests/_build/results?buildId=249&view=results
