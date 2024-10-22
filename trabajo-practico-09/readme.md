@@ -6,19 +6,26 @@
 
 ### Fallo de los test interrumpe la ejecucion del Pipeline
 
-#### Back-End
+##### Unit Tests | Back-End
 
 <img src="./images/Timage.png" width="1250"/>
 <img src="./images/Timage-1.png" width="1250"/>
 <img src="./images/Timage-2.png" width="1250"/>
 <img src="./images/Timage-3.png" width="1250"/>
 
-#### Front-End
+##### Unit Tests | Front-End
 
 <img src="./images/Timage-4.png" width="1250"/>
 <img src="./images/Timage-5.png" width="1250"/>
 <img src="./images/Timage-6.png" width="1250"/>
 <img src="./images/Timage-7.png" width="1250"/>
+
+##### Integration Tests
+
+<img src="./images/Timage-11.png" width="1250"/>
+<img src="./images/Timage-9.png" width="1250"/>
+<img src="./images/Timage-8.png" width="1250"/>
+<img src="./images/Timage-10.png" width="1250"/>
 
 ### Pipeline URL
 
