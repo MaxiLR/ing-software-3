@@ -4,6 +4,22 @@
 
 - Pipeline: https://dev.azure.com/maximolr/Angular%20-%20Unit%20and%20Integration%20Tests/_build/results?buildId=270&view=results
 
+### Fallo de los test interrumpe la ejecucion del Pipeline
+
+#### Back-End
+
+<img src="./images/Timage.png" width="1250"/>
+<img src="./images/Timage-1.png" width="1250"/>
+<img src="./images/Timage-2.png" width="1250"/>
+<img src="./images/Timage-3.png" width="1250"/>
+
+#### Front-End
+
+<img src="./images/Timage-4.png" width="1250"/>
+<img src="./images/Timage-5.png" width="1250"/>
+<img src="./images/Timage-6.png" width="1250"/>
+<img src="./images/Timage-7.png" width="1250"/>
+
 ### Pipeline URL
 
 Hasta 4.2.4: https://dev.azure.com/maximolr/Angular%20-%20Unit%20and%20Integration%20Tests/_build/results?buildId=249&view=results
